@@ -1,0 +1,193 @@
+#hom{
+    margin-left: 50px;
+    /*background-image: url(ba.jpg) ;background-size: cover;*/
+}
+
+#dd1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(158, 33, 33);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+#bo1{
+    background-color: rgb(234, 196, 202);
+    padding-left: 50px;
+}
+#o1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:rgb(72, 62, 62);
+}
+#oll{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    color:rgb(72, 62, 62);
+}
+#bu{
+    background-color:bisque;
+    background-size: 70px;
+    Padding: 12px;
+    position: absolute;
+    top: 550px;
+    left: 272px;
+}
+#bu:hover{
+    background-color: plum;
+    
+}
+
+#b3{ 
+
+    background-image: url(off.jpg) ;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+#of1{
+    position: absolute;
+    top :100px;
+    bottom: 50;
+}
+#b1{
+    background-color: pink;
+}
+#b2{
+    background-color: pink;
+}
+
+#tab1{
+    margin-left: 50px;
+}
+#ta1{
+    margin-left: 50px;
+}
+#u1{
+    color: rgb(127, 69, 69);
+
+}
+#u2{
+    color: rgb(127, 69, 69);
+}
+#h44{
+    color: rgb(200, 0, 80);
+}
+#h4{
+    color: rgb(200, 0, 80);
+}
+
+#h33{
+    position: absolute;
+    left:600;
+    color: blanchedalmond;
+    
+}
+#b4{
+    background-color: rgb(221, 203, 203);
+    margin-left: 70px;
+    padding-top: 70px;
+    margin-right:70 ;
+}
+#a1{
+    color: antiquewhite;
+}
+#a2{
+    color: antiquewhite;
+}
+#a3{
+    color: antiquewhite;
+}
+#a4{
+    color: antiquewhite;
+}
+#a5{
+    color: antiquewhite;
+}
+#m1{
+    color: lightblue;
+    text-align: center;
+}
+#im1{
+    height: 200px;
+    width: 200;
+}
+
+#im2{
+    height: 200px;
+    width: 200;
+}
+#im3{
+    height: 200px;
+    width: 200;
+}
+#im4{
+    height: 200px;
+    width: 200;
+}
+#im5{
+    height: 200px;
+    width: 200;
+}
+#im6{
+    height: 200px;
+    width: 200;
+}
+#f{
+    
+    background-color: lightblue;
+    margin-left: 70px;
+    
+}
+#f:hover{
+    background-color: lightskyblue;
+}
+.nav{
+    background-color: rgb(246, 177, 177);
+    margin-left: -38px;
+    overflow: hidden;
+    
+}
+.nav a{
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+    display: block;
+    float: left;
+}
+.nav a:hover{
+    background-color: lightgray;
+    color: blue;
+}
+#h33{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*  كود عشان الصور الي بالكلاسس*/
+.zoomable {
+    transition: transform 0.3s ease;
+  }
+  /* اذا مررت الماوس عليها تتكبر شوي*/
+  .zoomable:hover {
+    transform: scale(1.1);
+  }
+/*للصور بصفحه الهوم */
+.container {
+    display: flex;
+    align-items: center;
+  }
+/* هذا الكود عشان نخلي الصور دائريه */
+.round-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+  
+.round-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+

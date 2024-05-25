@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="website icon" type="jpg" href="logo.jpg">
+        <link href="style.css" rel="stylesheet" >
+        <title>صفحه التسجيل</title>
+    </head>
+    <body id="b4" >
+      <div class="nav">
+        <a href="f1.html">Home</a>
+        <a href="corss.html">Corss</a>
+        <a href="offers.html">offers</a>
+        <a href="التواصل.html">Connecting</a>
+        <a href="الاشتراك.html"> Subscription</a>
+        <a href="login.html">Join us</a>
+        <a href="signin.html">Login</a>
+        <a href="https://www.google.com/maps/search/%D9%88%D9%82%D8%AA+%D8%A7%D9%84%D9%84%D9%8A%D8%A7%D9%82%D9%87+%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D9%87%E2%80%AD%E2%80%AD/@26.0469753,48.5200174,6z?hl=ar&entry=ttu">Location</a>
+    </div>
+    <br>
+    <br>
+        <!-- كود جافا سكريبت ل الكولور بيكر لتغيير لون الخلفيه من اليوزر-->
+        <input id="colorSelector" type="color" onchange="fuction()">
+    
+      <p> if the page theme to light you can change it from here</p>
+    <script>
+     const colorSelector = document.getElementById("colorSelector");
+
+     colorSelector.onchange = function() {
+     const selectedColor = colorSelector.value;
+     document.body.style.backgroundColor = selectedColor;
+}
+    </script>
+        
+        <br>
+        <br>
+
+        
+        <form>
+            <fieldset><legend> <h1 id="hh1" onclick="f1() , f2()">التسجيل </h1></legend>
+            <br/><br/>
+            <label for="f">:name
+            <input placeholder="دانه محمد">
+            </label>
+            <br/><br/>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" max="150" required>
+            </label>
+            <br/><br/>
+            <label for="f">:email
+            <input placeholder="assss@gmail.com">
+            </label>
+            <br/><br/>
+            <label for="f">:phone number
+            <input placeholder="0553441678">
+            </label>
+            <br/><br/>
+            <label for="الجنس">:gender</label>
+            <select id="الجنس" name="الجنس">
+            <option value="ذكر">ذكر</option>
+            <option value="انثى">انثى</option>
+            </select>
+            <br/><br/>
+            <label for="المدينه">:city</label>
+            <select id="المدينه" name="المدينه">
+            <option value="الرياض">الرياض</option>
+            <option value="جده"> جده</option>
+            <option value="الدمام">الدمام</option>
+            </select>
+            <br/><br/>
+            <label for="f">:password
+            <input placeholder="Aa1232456">
+            </label>
+            <br/><br/>
+            <label for="f">:BirthDate
+            <input placeholder="25/7/1998">
+            </label>
+            </fieldset>
+            <!-- كود جافا سكريبت لتغيير لون نص كلمه التسجيل الي بالليجيند اذا اليوزر ضغط الزر-->
+            <!--<button type="button">التسجيل</button>
+            <script>
+                function f1(){
+                    document.getElementById("hh1").style.color ="red"    
+                            }
+                function f2(){
+                    document.getElementById("hh1").innerHTML ="هنا التسجيل"    
+                            }
+            </script>-->
+            <!-- كود جافا عشان يتغير لون-->
+            <button id="registerButton" type="button">التسجيل</button>
+  <!--هذا الكود حق الزر حق التسجيل الي يتغير لونه-->
+  <script>
+    const registerButton = document.getElementById('registerButton');
+
+    registerButton.addEventListener('click', function() {
+      if (registerButton.style.backgroundColor === 'red') {
+        registerButton.style.backgroundColor = 'blue';
+        registerButton.style.color = 'white';
+      } else {
+        registerButton.style.backgroundColor = 'red';
+        registerButton.style.color = 'white';
+      }
+    });
+  </script>
+            
+            
+            
+            </form>
+            <p>you have an accont?</p><a href="signin.html"><button>sign in</button></a>
+    </body>
+</html>

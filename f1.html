@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- هذا الكود عشان الصفحه تتناسب مع الحجم واذا صغرت الويندو يشتغل معي -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" >
+        <link rel="website icon" type="jpg" href="logo.jpg">
+        <title>GYM TIME </title>
+        <script>
+            //  كود جافا سكريبت why gym time الي يكبر
+            function increaseTextSize() {
+              var textElement = document.getElementById("par");
+              var currentSize = parseInt(window.getComputedStyle(textElement).fontSize);
+              var newSize = currentSize + 5; // زياد حجم النص5 بكسل
+              
+              textElement.style.fontSize = newSize + "px";
+            }
+          </script>
+        
+    </head>
+    <body id="hom" style="background-color: rgb(56, 53, 50);">
+        <br>
+        <!-- هذاي الناف او الشريط الي يوديني لباقي الصفحات سوينا ستايل له ب صفحه ال CSS-->
+        <div class="nav">
+            <a href="f1.html">Home</a>
+            <a href="corss.html">Corss</a>
+            <a href="offers.html">offers</a>
+            <a href="التواصل.html">Connecting</a>
+            <a href="الاشتراك.html"> Subscription</a>
+            <a href="login.html">Join us</a>
+            <a href="signin.html">Login</a>
+            <a href="https://www.google.com/maps/search/%D9%88%D9%82%D8%AA+%D8%A7%D9%84%D9%84%D9%8A%D8%A7%D9%82%D9%87+%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D9%87%E2%80%AD%E2%80%AD/@26.0469753,48.5200174,6z?hl=ar&entry=ttu">Location</a>
+        </div>
+        <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+          <a href="javascript:void(0)" onclick="w3_close()"
+          class="w3-bar-item w3-button">Close Menu</a>
+          <a href="Books" onclick="w3_close()" class="w3-bar-item w3-button">Books</a>
+          <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+          <a href="Home.html" onclick="w3_close()" class="w3-bar-item w3-button">Arabic Books</a>
+          <a href="Engl.html" onclick="w3_close()" class="w3-bar-item w3-button">English Books</a><!-- توي ماسويت الصفحه-->
+        
+        </nav>
+        
+        
+        <br>
+        <br>
+        <br>
+
+        <br>
+        
+
+        <!--الكود الي ادرج لي الفيديو وحط نص جميه -->
+        <!--<div style="display: inline-block; vertical-align: top;">
+          <video src="IMG_7803.MP4" type="video/mp4" autoplay loop controls height="450" width="270"></video>
+        </div>
+        <div style="display: inline-block; vertical-align: top;">
+          <h3 style="color: palevioletred;"> GYM Time is a place where various sports and recreational activities are offered to its members. People can join the sports club to engage in different types of exercises such as bodybuilding, yoga, swimming, football, and more. The sports club also provides personalized training programs and nutrition services to help members achieve their fitness goals. Additionally, members can communicate with professional trainers and participate in community sports events.</h3>
+        </div>-->
+        <div style="display: flex;">
+          <div style="display: inline-block; vertical-align: top;">
+            <video src="IMG_7803.MP4" type="video/mp4" autoplay loop controls height="400" width="250"></video>
+          </div>
+          <div style="display: inline-block; vertical-align: top;">
+            <br>
+            <br>
+            <br>
+            <h3 style="color: palevioletred;">GYM Time is a place where various sports and recreational activities are offered to its members.<br> People can join the sports club to engage in different types of exercises<br> such as bodybuilding, yoga, swimming, football, and more. <br>The sports club also provides personalized training programs and nutrition services to help members <br>achieve their fitness goals. Additionally, members can communicate with professional trainers<br> and participate in community sports events.</h3>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <!-- سويناه بالديف عشان يمدي نحط كلام جمب الصوره وبشكل ازين وغيرنا الخط و لونه-->
+        <div class="container">
+            <div class="round-image">
+              <img src="hf1.jpg" alt="صورة 1">
+            </div>
+            <h3 style="color: beige; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Remember, the pain of discipline is temporary, but the glory of victory lasts forever.</h3>
+            <br>
+          </div>
+          <!--كود الي خلا الصور دائريه الكود الصدقي ب صفحه css-->
+          <div class="container">
+            <div class="round-image">
+              <img src="home.jpg" alt="صورة 2" >
+            </div>
+            <h3 style="color: beige; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Success is earned through hard work, dedication, and a relentless pursuit of excellence. Keep pushing forward!</h3>
+          </div>
+          
+          <div class="container">
+            <div class="round-image">
+              <img src="h2.jpg" alt="صورة 3">
+            </div>
+            <h3 style="color: beige; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Obstacles are merely stepping stones on the path to success. Rise above them and keep moving forward</h3>
+          </div>
+     <br>
+     <br>
+     <br>
+     <br>
+     <!-- هنا عطيته اي دي وكتبت الفونكشن حقت جافا فوق بالهيد عشان يكبر النص اذا ضغطت عليه التكبير على why gym time?-->
+     <h2 style="color: beige;" id="par" onclick="increaseTextSize()">WHY GYM Time ?</h2>
+     <p style="color: blanchedalmond;"> Bouncing back or transforming your life? GYM TIME is all about your next step in the right direction. Experience the madness of breaking barriers with a power-packed workout routine and change the game!
+    </p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2 style="color: palevioletred; " align="center">About:</h2>
+        <p style="color: rgb(210, 121, 136);" align="center">GYM Time is a full-service provider in the field of health and fitness, and all GYM Time centers are equipped with the latest technologically advanced equipment, which we have selected from all over the world. We have invested in all aspects of our centers to provide our subscribers with the highest standards in sports, entertainment and fitness..</p>
+        <br>
+        <br>
+    </body>
+</html>
